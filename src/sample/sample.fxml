@@ -3,7 +3,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
+<GridPane prefHeight="300.0" prefWidth="300.0" fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-          <Button fx:id="btn" text = "Click on me"/>
 </GridPane>
