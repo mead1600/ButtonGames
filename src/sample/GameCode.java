@@ -13,6 +13,8 @@ import javafx.stage.Stage;
 
 import java.util.Timer;
 
+//banana
+
 public class GameCode extends Application {
 
     int score = -1;
