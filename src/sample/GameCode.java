@@ -35,11 +35,10 @@ public class GameCode extends Application {
 
         new AnimationTimer(){
             public void handle(long now) {
-                Timer
                 if(now > timestep){
                     btn.setLayoutX(Math.random()*400);
                     btn.setLayoutY(Math.random()*400);
-                    timestep = now + 2500;
+                    timestep = now + 700000000;
                 }
             }
         }.start();
